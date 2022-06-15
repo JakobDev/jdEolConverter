@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop">
+  <!--Created with jdAppdataEdit 3.2-->
+  <id>com.gitlab.JakobDev.jdEolConverter</id>
+  <name>jdEolConverter</name>
+  <summary>Converts End of Line of all files in a directory</summary>
+  <summary xml:lang="de">Ändert das Zeilenende von allen Dateien in einem Verzeichnis</summary>
+  <developer_name>JakobDev</developer_name>
+  <launchable type="desktop-id">com.gitlab.JakobDev.jdEolConverter.desktop</launchable>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <description>
+    <p>jdEolConverter is a simple tool that converts the End of Line of all files in a direcory into the given format. Nothing more and nothing less. This is useful when you e.g. have edited files under Windows and forgot to chnage the End of Line Option.</p>
+    <p xml:lang="de">jdEolConverter ist ein kleines Tool um das Zielenende aller dateien in einem Verzeichnis zu konvertieren. Nicht mehr und nicht weniger. Dies ist beispielweise dann praktisch, wenn du Datein unter WIndows bearbeitet hast und vergessen hast, die Einstellungen für das Zeilenende in deinem Editor zu ändern.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://gitlab.com/JakobDev/jdEolConverter/-/raw/1.0/Screenshots/MainWindow.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="1.0" date="2022-06-15" type="stable">
+      <description>
+        <ul>
+          <li>First Release</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <url type="homepage">https://gitlab.com/JakobDev/jdEolConverter</url>
+  <url type="bugtracker">https://gitlab.com/JakobDev/jdEolConverter/-/issues</url>
+  <categories>
+    <category>Development</category>
+    <category>Utility</category>
+    <category>Qt</category>
+  </categories>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+  <content_rating type="oars-1.1"/>
+  <provides>
+    <binary>jdeolconverter</binary>
+    <python3>jdEolConverter</python3>
+    <mediatype>inode/directory</mediatype>
+  </provides>
+</component>

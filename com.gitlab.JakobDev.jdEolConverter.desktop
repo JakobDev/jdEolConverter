@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jdEolConverter
+Terminal=false
+Type=Application
+Icon=com.gitlab.JakobDev.jdEolConverter
+Exec=jdeolconverter %f
+Comment=Converts End of Line of all files in a directory
+Comment[de]=Ändert das Zeilenende von allen Dateien in einem Verzeichnis
+Categories=Development;Utility;Qt;
+MimeType=inode/directory;
