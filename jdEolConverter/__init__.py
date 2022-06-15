@@ -83,6 +83,9 @@ class MainWindow(QWidget):
 
         self._update_regex_widgets_enabled()
 
+        if len(sys.argv) > 1:
+            self.edit_path.setText(sys.argv[1])
+
     def _button_browse_clicked(self):
         path = QFileDialog.getExistingDirectory(self, directory=self.edit_path.text())
         if path != "":
