@@ -5,6 +5,7 @@
   <name>jdEolConverter</name>
   <summary>Converts End of Line of all files in a directory</summary>
   <summary xml:lang="de">Ändert das Zeilenende von allen Dateien in einem Verzeichnis</summary>
+  <summary xml:lang="nl">Converteer regeleinden van alle bestanden in een map</summary>
   <developer_name>JakobDev</developer_name>
   <launchable type="desktop-id">com.gitlab.JakobDev.jdEolConverter.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
@@ -12,6 +13,7 @@
   <description>
     <p>jdEolConverter is a simple tool that converts the End of Line of all files in a direcory into the given format. Nothing more and nothing less. This is useful when you e.g. have edited files under Windows and forgot to change the End of Line Option.</p>
     <p xml:lang="de">jdEolConverter ist ein kleines Tool um das Zielenende aller dateien in einem Verzeichnis zu konvertieren. Nicht mehr und nicht weniger. Dies ist beispielweise dann praktisch, wenn du Datein unter WIndows bearbeitet hast und vergessen hast, die Einstellungen für das Zeilenende in deinem Editor zu ändern.</p>
+    <p xml:lang="nl">jdEolConverter is een eenvoudig hulpmiddel voor het converteren van regeleinden naar een zelfgekozen opmaak van alle bestanden in een map. Niets meer en niets minder. Dit kan bijv. handig zijn als u bestanden op WIndows heeft bewerkt en vergeten bent om de regeleinde-optie aan te passen.</p>
   </description>
   <screenshots>
     <screenshot type="default">
