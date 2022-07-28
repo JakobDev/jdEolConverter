@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop">
-  <!--Created with jdAppdataEdit 3.2-->
+  <!--Created with jdAppdataEdit 4.0-->
   <id>com.gitlab.JakobDev.jdEolConverter</id>
   <name>jdEolConverter</name>
   <summary>Converts End of Line of all files in a directory</summary>
@@ -21,8 +21,14 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.0" date="2022-06-15" type="stable">
+    <release version="1.1" date="2022-07-28" type="stable">
       <description>
+        <ul>
+          <li>Add Dutch translation</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0" date="2022-06-14" type="stable"><description>
         <ul>
           <li>First Release</li>
         </ul>

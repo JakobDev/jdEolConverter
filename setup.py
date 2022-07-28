@@ -36,7 +36,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 
 setup(name="jdEolConverter",
-    version="1.0",
+    version="1.1",
     description="Converts End of Line of all files in a directory",
     long_description=readme,
     long_description_content_type="text/markdown",
