@@ -133,7 +133,7 @@ def main():
     app = QApplication(sys.argv)
 
     app.setWindowIcon(QIcon(os.path.join(os.path.dirname(__file__), "Icon.svg")))
-    app.setDesktopFileName("com.gitlab.JakobDev.jdEolConverter")
+    app.setDesktopFileName("page.codeberg..JakobDev.jdEolConverter")
     app.setApplicationName("jdEolConverter")
 
     translator = QTranslator()

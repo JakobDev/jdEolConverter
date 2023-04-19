@@ -1,26 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop">
-  <!--Created with jdAppdataEdit 4.0-->
-  <id>com.gitlab.JakobDev.jdEolConverter</id>
+  <!--Created with jdAppStreamEdit 6.0-->
+  <id>page.codeberg.JakobDev.jdEolConverter</id>
   <name>jdEolConverter</name>
   <summary>Converts End of Line of all files in a directory</summary>
-  <summary xml:lang="de">Ändert das Zeilenende von allen Dateien in einem Verzeichnis</summary>
-  <summary xml:lang="nl">Converteer regeleinden van alle bestanden in een map</summary>
   <developer_name>JakobDev</developer_name>
-  <launchable type="desktop-id">com.gitlab.JakobDev.jdEolConverter.desktop</launchable>
+  <launchable type="desktop-id">page.codeberg.JakobDev.jdEolConverter.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   <description>
     <p>jdEolConverter is a simple tool that converts the End of Line of all files in a direcory into the given format. Nothing more and nothing less. This is useful when you e.g. have edited files under Windows and forgot to change the End of Line Option.</p>
-    <p xml:lang="de">jdEolConverter ist ein kleines Tool um das Zielenende aller dateien in einem Verzeichnis zu konvertieren. Nicht mehr und nicht weniger. Dies ist beispielweise dann praktisch, wenn du Datein unter WIndows bearbeitet hast und vergessen hast, die Einstellungen für das Zeilenende in deinem Editor zu ändern.</p>
-    <p xml:lang="nl">jdEolConverter is een eenvoudig hulpmiddel voor het converteren van regeleinden naar een zelfgekozen opmaak van alle bestanden in een map. Niets meer en niets minder. Dit kan bijv. handig zijn als u bestanden op WIndows heeft bewerkt en vergeten bent om de regeleinde-optie aan te passen.</p>
   </description>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://gitlab.com/JakobDev/jdEolConverter/-/raw/1.0/Screenshots/MainWindow.png</image>
+      <image type="source">https://codeberg.org/JakobDev/jdEolConverter/raw/commit/dce1d3cd57d99517021bfa247090e06b6b68b733/Screenshots/MainWindow.png</image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.2" date="2023-04-19" type="stable">
+      <description>
+        <ul>
+          <li>Moved to Codeberg</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.1" date="2022-07-28" type="stable">
       <description>
         <ul>
@@ -28,15 +31,18 @@
         </ul>
       </description>
     </release>
-    <release version="1.0" date="2022-06-14" type="stable"><description>
+    <release version="1.0" date="2022-06-14" type="stable">
+      <description>
         <ul>
           <li>First Release</li>
         </ul>
       </description>
     </release>
   </releases>
-  <url type="homepage">https://gitlab.com/JakobDev/jdEolConverter</url>
-  <url type="bugtracker">https://gitlab.com/JakobDev/jdEolConverter/-/issues</url>
+  <url type="homepage">https://codeberg.org/JakobDev/jdEolConverter</url>
+  <url type="bugtracker">https://codeberg.org/JakobDev/jdEolConverter/issues</url>
+  <url type="donation">https://ko-fi.com/jakobdev</url>
+  <url type="translate">https://translate.codeberg.org/projects/jdEolConverter</url>
   <categories>
     <category>Development</category>
     <category>Utility</category>
@@ -52,4 +58,7 @@
     <python3>jdEolConverter</python3>
     <mediatype>inode/directory</mediatype>
   </provides>
+  <replaces>
+    <id>com.gitlab.JakobDev.jdEolConverter</id>
+  </replaces>
 </component>

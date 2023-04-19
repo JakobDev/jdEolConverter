@@ -2,10 +2,8 @@
 Name=jdEolConverter
 Terminal=false
 Type=Application
-Icon=com.gitlab.JakobDev.jdEolConverter
+Icon=page.codeberg.JakobDev.jdEolConverter
 Exec=jdeolconverter %f
 Comment=Converts End of Line of all files in a directory
-Comment[de]=Ändert das Zeilenende von allen Dateien in einem Verzeichnis
-Comment[nl]=Converteert regeleinden van alle bestanden in een map
 Categories=Development;Utility;Qt;
 MimeType=inode/directory;

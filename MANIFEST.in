@@ -1,3 +1,4 @@
+include BuildBackend.py
 include jdEolConverter/*.ui
 include jdEolConverter/Icon.svg
-include jdEolConverter/translations/*.qm
+include jdEolConverter/translations/*.ts
